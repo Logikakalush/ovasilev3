@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+   display: flex; 
+}
+
+.button {
+  background-color: #3f48cc; 
+  color:azure; 
+  height: 50px;
+  font-size:50px;
+  padding: 60px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 24px;
+    border:5px solid purple;
+   padding: 7px;
+   color:purple;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.info {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+
+article {
+   background-color: purple;
+   padding: 10px;
+   margin: 10px;
+   width: 400px ;
+   height: 500px;
+}
+
+.article-but {
+   color:aliceblue; 
+   text-decoration: none;
+   font-size: 20px;
+   border:5px solid gainsboro;
+   padding: 2px;
+}
+
+footer {
+   display: flex;
+}
+
+
+footer p {
+}
+p a{
+   color: white;
+}
